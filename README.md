@@ -29,7 +29,7 @@ This unpacked Manifest V3 extension adds adjustable speed, gallop, stamina, flig
 3. Open `chrome://extensions` in Chrome or Chromium.
 4. Turn on **Developer mode**.
 5. Choose **Load unpacked** and select the repository folder containing `manifest.json`.
-6. Open the game: <https://bagantrail.com/play?debug=1&governor=0>
+6. Open the game: <https://bagantrail.com/play>
 7. Click the **Bagan-Trail on Steroid** extension icon and choose **Enable and reload**.
 8. After the page reloads, start a horse ride. The control panel appears in the top-right corner.
 
@@ -109,6 +109,12 @@ popup.js                  Enable/disable controls
 
 There is no build step or package installation. Load the repository folder directly as an unpacked extension.
 
+## Contributing
+
+Contributions are welcome. Open an issue to report a bug or suggest an improvement, or submit a pull request with a clear description of the change. Please keep pull requests focused and include steps to reproduce or verify behavior when relevant.
+
+By contributing, you agree that your contributions are licensed under the MIT License in this repository.
+
 ## License
 
-No license is included yet. Public visibility lets people view the code, but does not grant permission to reuse or redistribute it. Add a license if you want to grant those rights.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for the full text.
