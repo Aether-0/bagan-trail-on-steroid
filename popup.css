@@ -1,0 +1,11 @@
+:root{color-scheme:dark;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:#211A24;color:#F4ECDF}
+*{box-sizing:border-box}
+body{width:300px;margin:0;padding:16px}
+main{display:grid;gap:12px}
+.brand-logo{display:block;width:100%;height:auto;max-height:74px;object-fit:contain;object-position:left center}
+#status{min-height:34px;margin:2px 0 0;color:#E5D7C2;font-size:13px;line-height:1.4}
+button{min-height:40px;border:1px solid #E78354;border-radius:6px;background:#C85E45;color:#FFF2DF;font:700 13px system-ui,-apple-system,"Segoe UI",sans-serif;cursor:pointer}
+button:hover:not(:disabled){background:#E0714F}
+button:disabled{opacity:.55;cursor:wait}
+.note{margin:0;color:#C0AD9E;font-size:11px;line-height:1.45}
+:focus-visible{outline:2px solid #FFD078;outline-offset:2px}
